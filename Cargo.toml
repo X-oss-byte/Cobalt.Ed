@@ -67,21 +67,21 @@ doc = false
 [dependencies]
 cobalt-config = { version = "=0.19.0", path = "crates/config", features = ["unstable"] }
 cobalt-core = { version = "=0.19.0", path = "crates/core", features = ["unstable"] }
-clap = { version = "4.4", features = ["derive", "wrap_help"] }
-clap-verbosity-flag = "2.0"
+clap = { version = "4.5", features = ["derive", "wrap_help"] }
+clap-verbosity-flag = "2.2"
 proc-exit = "2"
 yansi = "0.5.1"
 colorchoice = "1.0.0"
-colorchoice-clap = "1.0.2"
+colorchoice-clap = "1.0.3"
 human-panic = "1"
 scrawl = "2.0"
-tempfile = "3.8"
+tempfile = "3.10"
 relative-path = { version = "1", features = ["serde"] }
 liquid = "0.26"
 liquid-core = "0.26"
 liquid-lib = { version = "0.26", features = ["jekyll", "shopify", "extra"] }
-deunicode = "1.3.3"
-walkdir = "2.3"
+deunicode = "1.4.3"
+walkdir = "2.5"
 time = "0.3"
 log = "0.4"
 env_logger = "0.10"
@@ -89,7 +89,7 @@ rss = "2.0"
 jsonfeed = "0.2"
 pulldown-cmark = {version="0.9", default-features = false}
 engarde = { version = "0.1", path = "crates/engarde" }
-regex = "1.9"
+regex = "1.10"
 lazy_static = "1.4"
 itertools = "0.11"
 ignore = "0.4"
@@ -108,9 +108,9 @@ notify = { version = "6", optional = true, default-features = false, features = 
 sass-rs = { version = "0.2", optional = true }
 
 html-minifier = {version="3.0", optional = true }
-anyhow = "1.0.75"
+anyhow = "1.0.81"
 anstream = "0.5.0"
-chrono = "0.4.28"
+chrono = "0.4.37"
 
 [dev-dependencies]
 trycmd = "0.14"
